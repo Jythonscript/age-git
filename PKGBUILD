@@ -1,7 +1,7 @@
 # Maintainer: Stephen Gregoratto <dev@sgregoratto.me>
 # Contributor: Caleb Maclennan <caleb@alerque.com>
 pkgname=age-git
-pkgver=1.0.0.rc.3.r1.g4ea591b
+pkgver=1.2.1.r56.g4202739
 pkgrel=1
 pkgdesc="A simple, modern and secure file encryption tool"
 url="https://github.com/FiloSottile/age"
