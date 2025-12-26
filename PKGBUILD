@@ -42,7 +42,9 @@ check() {
 package() {
   install -Dm755 "${pkgname%-git}/build/age" "$pkgdir/usr/bin/age"
   install -Dm755 "${pkgname%-git}/build/age-keygen" "$pkgdir/usr/bin/age-keygen"
+  install -Dm755 "${pkgname%-git}/build/age-inspect" "$pkgdir/usr/bin/age-inspect"
   install -Dm644 "${pkgname%-git}/LICENSE" "$pkgdir/usr/share/licenses/$pkgname/LICENCE"
   install -Dm644 "${pkgname%-git}/doc/age.1" "$pkgdir/usr/share/man/man1/age.1"
   install -Dm644 "${pkgname%-git}/doc/age-keygen.1" "$pkgdir/usr/share/man/man1/age-keygen.1"
+  install -Dm644 "${pkgname%-git}/doc/age-inspect.1" "$pkgdir/usr/share/man/man1/age-inspect.1"
 }
